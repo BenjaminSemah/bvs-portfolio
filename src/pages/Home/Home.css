@@ -1,0 +1,135 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header--info {
+  display: flex;
+  flex-direction: column;
+  color: #353738;
+}
+
+.header--info p {
+  margin: 15px 0 0 0;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.header--info h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 9px;
+}
+
+.header--info span {
+  text-align: center;
+  background-color: #fbd761;
+  width: 300px;
+  margin: auto;
+  font-size: 1.2rem;
+  font-weight: 300;
+  letter-spacing: 4px;
+  padding: 5px 0;
+}
+
+.bvs-photo {
+  width: 90%;
+  max-width: 300px;
+  margin: 20px auto;
+  box-shadow: 3px 4px 13px -3px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 4px 13px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 4px 13px -3px rgba(0,0,0,0.75);
+}
+
+/* ABOUT SECTION */
+
+.about--skills {
+  margin: 50px 0 0 0;
+  background-color: #1a1918;
+  color: whitesmoke;
+  padding: 5%;
+}
+
+.about--me {
+  margin-bottom: 30px;
+}
+
+.about--skills h2 {
+  font-size: 2.2rem;
+  font-weight: 100;
+  margin: 0;
+}
+
+.about--skills p {
+  text-align: left;
+  margin: 10px 0 0 0;
+}
+
+.read--more {
+  margin: 0;
+  color: #fbd761;
+}
+
+.read--more:hover {
+  cursor: pointer;
+}
+
+.skills--btns {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.skills--btns button {
+  margin: 0 6px 12px 0;
+  border: 1px solid #fbd761;
+  background: none;
+  color: #fbd761;
+  padding: 5px 15px;
+}
+
+.skills--btns button:hover {
+  background-color: #fbd761;
+  color: #1a1918;
+}
+
+/* DESKTOP VERSION */
+
+@media only screen and (min-width: 760px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3%;
+    margin-top: 7%;
+  }
+
+  .header--info {
+    margin-top: -35px;
+  }
+
+  .bvs-photo {
+    margin: 0;
+  }
+
+  .header--info span {
+    margin: 0;
+  }
+
+  /* About Section (Desktop) */
+
+  .about--skills {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 50px 100px;
+  }
+
+  .about--me {
+    max-width: 450px;
+  }
+}
+
