@@ -26,7 +26,7 @@
 
 .header--info span {
   text-align: center;
-  background-color: #fbd761;
+  background-color: wheat;
   width: 300px;
   margin: auto;
   font-size: 1.2rem;
@@ -70,7 +70,7 @@
 
 .read--more {
   margin: 0;
-  color: #fbd761;
+  color: wheat;
 }
 
 .read--more:hover {
@@ -85,18 +85,18 @@
 
 .skills--btns button {
   margin: 0 6px 12px 0;
-  border: 1px solid #fbd761;
+  border: 1px solid wheat;
   background: none;
-  color: #fbd761;
+  color: wheat;
   padding: 5px 15px;
 }
 
 .skills--btns button:hover {
-  background-color: #fbd761;
+  background-color: wheat;
   color: #1a1918;
 }
 
-/* DESKTOP VERSION */
+/* ABOUT - DESKTOP VERSION */
 
 @media only screen and (min-width: 760px) {
   .header {
@@ -133,3 +133,102 @@
   }
 }
 
+/* PROJECTS SECTION */
+
+.projects--section {
+  padding: 20px 15px 35px 15px;
+}
+
+.projects--section h2 {
+  font-size: 3.5rem;
+  font-weight: 100;
+  margin: 0;
+  text-align: center;
+  padding: 35px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.single--project {
+  display: flex;
+  flex-direction: column;
+  width: 275px;
+  height: auto;
+  margin: 25px 15px 15px 15px;
+  border-radius: 15px;
+  box-shadow: 2px 3px 5px 1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 2px 3px 5px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 3px 55px 1px rgba(0,0,0,0.75);
+}
+
+.single--project:hover {
+  transform: scale(1.03);
+}
+
+.image--link,
+.project--image {
+  width: 275px;
+  height: 150px;
+}
+
+.single--project img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.project--details {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 15px 15px 15px 20px;
+  background-color: #1a1918;
+  color: aliceblue;
+}
+
+.project--details p {
+  /* margin: 0; */
+}
+
+.project--name {
+  font-weight: 800;
+  border: 1px solid wheat;
+  color: wheat;
+  /* color: #fbd761; */
+  border-radius: 25px;
+  text-align: center;
+  padding-bottom: 3px;
+  margin-bottom: 10px;
+}
+
+.project--desc {
+  font-size: small;
+  text-align: justify;
+}
+
+.project--links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.project--links a {
+  border: none;
+  background-color: wheat;
+  border-radius: 25px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 5px 10px;
+  color: #1a1918;
+  text-decoration: none;
+}
+
+.project--links a:hover {
+  color: #1a1918;
+  background-color: #ddbd55;
+}
