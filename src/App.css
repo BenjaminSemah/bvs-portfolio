@@ -84,6 +84,20 @@
   cursor: pointer;
 }
 
+/* Blog Extras */
+
+@media only screen and (max-width: 816px) {
+  .three--posts {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .four--posts {
+    display: none;
+  }
+}
+
 /* TESTIMONIALS SECTION */
 
 .single--testimonial {

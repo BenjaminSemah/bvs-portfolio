@@ -117,7 +117,7 @@ export function BlogCarousel() {
             </a>
           </p>
         </div>
-        <div className="single--post">
+        <div className="single--post three--posts ">
           <a
             className="post--title"
             href="https://benjaminsemah.hashnode.dev/series/js-challenges"
@@ -140,7 +140,7 @@ export function BlogCarousel() {
             </a>
           </p>
         </div>
-        <div className="single--post">
+        <div className="single--post three--posts four--posts">
           <a
             className="post--title"
             href="https://benjaminsemah.hashnode.dev/understanding-how-css-selectors-work-part-one"
@@ -163,7 +163,7 @@ export function BlogCarousel() {
             </a>
           </p>
         </div>
-        <div className="single--post">
+        <div className="single--post three--posts four--posts">
           <a
             className="post--title"
             href="https://benjaminsemah.hashnode.dev/how-to-remember-what-you-learn-from-coding-tutorials"
