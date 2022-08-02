@@ -157,22 +157,11 @@
   transform: scale(0.98);
 }
 
-/* Contact Responsive */
-
-/* @media only screen and (min-width: 816px) {
-  .contact--section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 35px;
-    padding: 75px;
-  }
-
-  .contact--form {
-    margin: 0;
-  }
-
-  .form--title {
-    padding: 0;
-  }
-} */
+.success--message {
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 3.2px;
+  color: green;
+  margin: 0;
+}

@@ -6,7 +6,7 @@ import { Blog } from "./pages/Blog";
 // import { Container } from "react-bootstrap";
 import { Navigation } from "./components/Navigation";
 import { BlogCarousel } from "./components/BlogCarousel";
-import { ContactSection } from "./components/ContactSection";
+import { ContactForm } from "./components/ContactForm";
 import "./App.css";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
         {/* <h1>APPLICATION</h1> */}
       {/* </Container> */}
       <BlogCarousel />
-      <ContactSection />
+      <ContactForm />
     </>
   );
 }
