@@ -2,3 +2,105 @@
   margin: 0;
   padding: 0;
 }
+
+/* BLOG POSTS SECTION */
+.blog--section {
+  background-color: #1a1918;
+  color: whitesmoke;
+}
+
+.all--posts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section--title {
+  font-size: 3.5rem;
+  font-weight: 100;
+  margin: 0;
+  text-align: center;
+  padding: 35px;
+}
+
+.single--post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.post--title {
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: wheat;
+  border-radius: 25px;
+  padding-bottom: 3px;
+  margin-bottom: 5px;
+  width: 80%;
+  max-width: 400px;
+  text-decoration: none;
+}
+
+.post--title:hover {
+  color: rgb(236, 198, 126);
+  cursor: pointer;
+  text-decoration: underline;
+  transform: scale(1.02);
+}
+
+.post--desc {
+  font-size: small;
+  text-align: justify;
+  width: 80%;
+  max-width: 400px;
+  margin: 0;
+}
+
+.read--post {
+  color: wheat;
+  /* margin: 0; */
+  font-size: 1.2rem;
+}
+
+.read--post:hover {
+  color: wheat;
+}
+
+.more--posts {
+  font-size: xx-large;
+  margin-top: -35px;
+  color: wheat;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.more--posts:hover {
+  color: wheat;
+  cursor: pointer;
+}
+
+/* TESTIMONIALS SECTION */
+
+.single--testimonial {
+  height: 50vh;
+  width: 100%;
+  background-color: wheat;
+  margin: 0px auto;
+  padding: 35px;
+  color: #1a1918;
+}
+
+.testimonial--img {
+  height: 150px;
+  margin: 0px auto;
+  padding-top: 0px;
+  width: 150px;
+  display: flex;
+  border-radius: 50%;
+  border: 1px solid #1a1918;
+}
