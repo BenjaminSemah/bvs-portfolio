@@ -2,3 +2,166 @@
   margin: 0;
   padding: 0;
 }
+
+/* BLOG POSTS SECTION */
+.blog--section {
+  background-color: #1a1918;
+  color: whitesmoke;
+}
+
+.all--posts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section--title {
+  font-size: 3.5rem;
+  font-weight: 100;
+  margin: 0;
+  text-align: center;
+  padding: 75px 0 35px 0;
+}
+
+.single--post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.post--title {
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: wheat;
+  border-radius: 25px;
+  padding-bottom: 3px;
+  margin-bottom: 5px;
+  width: 80%;
+  max-width: 400px;
+  text-decoration: none;
+}
+
+.post--title:hover {
+  color: rgb(236, 198, 126);
+  cursor: pointer;
+  text-decoration: underline;
+  transform: scale(1.02);
+}
+
+.post--desc {
+  font-size: small;
+  text-align: justify;
+  width: 80%;
+  max-width: 400px;
+  margin: 0;
+}
+
+.read--post {
+  color: wheat;
+  /* margin: 0; */
+  font-size: 1.2rem;
+}
+
+.read--post:hover {
+  color: wheat;
+}
+
+.more--posts {
+  font-size: xx-large;
+  margin-top: 35px auto;
+  color: wheat;
+  text-decoration: none;
+  text-align: center;
+  padding: 0;
+  width: 205px;
+  height: 40px;
+}
+
+.more--posts:hover {
+  color: wheat;
+  cursor: pointer;
+}
+
+/* Blog Extras */
+
+@media only screen and (max-width: 799px) {
+  .three--posts {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .four--posts {
+    display: none;
+  }
+}
+
+/* CONTACT SECTION */
+
+.contact--section {
+  background-color: wheat;
+  padding-bottom: 50px;
+}
+
+.form--title {
+  font-size: 3.5rem;
+  font-weight: 100;
+  margin: 0;
+  text-align: center;
+  padding: 70px 0 0 0;
+}
+
+.contact--form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.form--desc {
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin-bottom: 35px;
+  text-align: center;
+  letter-spacing: 4.5px;
+}
+
+.contact--form input {
+  background-color: whitesmoke;
+  border: none;
+  padding: 7px 15px;
+}
+
+.contact--form textarea  {
+  background-color: whitesmoke;
+  border: none;
+  padding: 5px 15px;
+  height: 150px;
+}
+
+.form--btn {
+  border: none;
+  padding: 7px;
+  background-color: #1a1918;
+  color: wheat;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.form--btn:hover {
+  transform: scale(0.98);
+}
+
+.success--message {
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 3.2px;
+  color: green;
+  margin: 0;
+}
