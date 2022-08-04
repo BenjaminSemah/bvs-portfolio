@@ -3,10 +3,10 @@ import { Home } from "./pages/Home/Home";
 import { About } from "./pages/About";
 import { Projects } from "./pages/Projects";
 import { Blog } from "./pages/Blog";
-// import { Container } from "react-bootstrap";
 import { Navigation } from "./components/Navigation";
 import { BlogCarousel } from "./components/BlogCarousel";
 import { ContactForm } from "./components/ContactForm";
+import { Footer } from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -24,6 +24,7 @@ function App() {
       {/* </Container> */}
       <BlogCarousel />
       <ContactForm />
+      <Footer />
     </>
   );
 }

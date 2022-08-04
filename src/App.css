@@ -3,6 +3,18 @@
   padding: 0;
 }
 
+/* NAVIGATION */
+
+.nav--bvs {
+  font-weight: 900;
+  margin: 0;
+}
+
+.nav--contact {
+  background-color: wheat;
+  margin: 0;
+}
+
 /* BLOG POSTS SECTION */
 .blog--section {
   background-color: #1a1918;
@@ -106,6 +118,11 @@
   padding-bottom: 50px;
 }
 
+.desc--title {
+  width: 350px;
+  margin: 0 auto;
+}
+
 .form--title {
   font-size: 3.5rem;
   font-weight: 100;
@@ -127,7 +144,7 @@
   font-weight: 100;
   margin-bottom: 35px;
   text-align: center;
-  letter-spacing: 4.5px;
+
 }
 
 .contact--form input {
@@ -163,5 +180,58 @@
   text-align: center;
   letter-spacing: 3.2px;
   color: green;
+  margin: 0;
+}
+
+/* FOOTER */
+
+.footer--section {
+  background-color: #1a1918;
+  margin: 0;
+}
+
+.socials--icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+  padding-top: 30px;
+}
+
+.footer--links {
+  text-decoration: none;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer--links p {
+  color: whitesmoke;
+  text-decoration: none;
+  margin: 5px 0 0 0 ;
+  display: none;
+}
+
+.footer--img {
+  height: 50px;
+  width: 50px;
+}
+
+.signature {
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 35px;
+  padding-bottom: 30px;
+}
+
+.built--by {
+  margin: 0;
+}
+
+.name--footer {
   margin: 0;
 }

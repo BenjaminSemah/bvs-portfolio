@@ -1,34 +1,27 @@
-import { Button, Container, Nav, Navbar } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 export function Navigation() {
   return (
-    <>
-      <Navbar bg="dark" variant="dark" className="shadow-md mb-3">
-        <Container>
-          <Navbar.Brand to="/" as={NavLink}>
-            HOME
-          </Navbar.Brand>
+    <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark">
+      <Container>
+        <Navbar.Brand href="#home" className='nav--bvs'>{"<BVS>"}</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link to="/about" as={NavLink}>
-              About
-            </Nav.Link>
-            <Nav.Link to="/projects" as={NavLink}>
-              Projects
-            </Nav.Link>
-            <Nav.Link to="/blog" as={NavLink}>
-              Blog
+            <Nav.Link href="#features">About</Nav.Link>
+            <Nav.Link href="#pricing">Projects</Nav.Link>
+            <Nav.Link href="#pricing">Blog</Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link href="#deets">
+              <button className='nav--contact'>Contact</button>
             </Nav.Link>
           </Nav>
-          <Button
-            style={{ width: "3rem", height: "3rem" }}
-            variant="light"
-            className="rounded-circle"
-          >
-            BVS
-          </Button>
-        </Container>
-      </Navbar>
-    </>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }

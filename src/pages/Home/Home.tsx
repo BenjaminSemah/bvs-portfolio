@@ -56,6 +56,7 @@ export function Home() {
             </a>
             <div className="project--details">
               <p className="project--name">Tenzies Game App</p>
+              <div className="project--underline"></div>
               <p className="project--desc">
                 I created the tenzies game app using React.js.
                 This fun game application also uses local storage
@@ -81,6 +82,7 @@ export function Home() {
             </a>
             <div className="project--details">
               <p className="project--name">Better Runner App</p>
+              <div className="project--underline"></div>
               <p className="project--desc">
                 This BetterRunner project is a website created for
                 a neighborhood community of running enthusiasts.
@@ -108,6 +110,7 @@ export function Home() {
             </a>
             <div className="project--details">
               <p className="project--name">Cinimash Comments Feature</p>
+              <div className="project--underline"></div>
               <p className="project--desc">
                 Assembled and led a team of three developers during Bootcamp to create
                 core features and integrate third-party APIs. I implemented the
@@ -134,6 +137,7 @@ export function Home() {
             </a>
             <div className="project--details">
               <p className="project--name">Happy Devs (Landing Page)</p>
+              <div className="project--underline"></div>
               <p className="project--desc">
                 This concept for this project was to create a landing page for a developers' meetup.
                 This fully responsive design of the website was all built using HTML, CSS, and JavaScript.

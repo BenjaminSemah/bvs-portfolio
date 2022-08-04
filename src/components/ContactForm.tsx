@@ -4,9 +4,12 @@ export function ContactForm() {
   const [state, handleSubmit] = useForm("mgeqwzlp");
   return (
     <section className="contact--section">
-      <div>
+      <div className="desc--title">
         <h2 className="form--title">Get In Touch</h2>
-        <p className="form--desc">Let's work together!</p>
+        <p className="form--desc">
+          Let's build together. I'd love to hear from you!<br></br>
+          Fill in the form below to shoot an email to me.
+        </p>
       </div>
       <form className="contact--form" onSubmit={handleSubmit}>
         <input id="name" type="name" name="name" placeholder="Your name" />
@@ -23,7 +26,7 @@ export function ContactForm() {
           <p className="success--message">Message sent successfully!</p>
         )}
         <button className="form--btn" type="submit" disabled={state.submitting}>
-          Send Message
+          Send Email
         </button>
       </form>
     </section>
