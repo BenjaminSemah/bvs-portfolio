@@ -8,16 +8,16 @@ export function Footer() {
     <section className="footer--section">
       <div className="footer--socials">
         <div className="socials--icons">
-          <a className="footer--links" href="" target="_blank">
+          <a className="footer--links" href="https://github.com/BenjaminSemah" target="_blank">
             <img className="footer--img" src={github_icon} alt="GitHub" />
           </a>
-          <a className="footer--links" href="" target="_blank">
+          <a className="footer--links" href="https://www.linkedin.com/in/benjaminsemah/" target="_blank">
             <img className="footer--img" src={linkedin_icon} alt="LinkedIn" />
           </a>
-          <a className="footer--links" href="" target="_blank">
+          <a className="footer--links" href="https://twitter.com/BenjaminSemah" target="_blank">
             <img className="footer--img" src={twitter_icon} alt="Twitter" />
           </a>
-          <a className="footer--links" href="" target="_blank">
+          <a className="footer--links" href="mailto:benjaminsemah@gmail.com">
             <img className="footer--img" src={email_icon} alt="Mail" />
           </a>
         </div>

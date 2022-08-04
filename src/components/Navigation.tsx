@@ -1,23 +1,37 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 
 export function Navigation() {
   return (
-    <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark">
+    <Navbar
+      collapseOnSelect
+      expand="sm"
+      bg="light"
+      variant="light"
+      sticky="top"
+      className="navbar--container"
+    >
       <Container>
-        <Navbar.Brand href="#home" className='nav--bvs'>{"<BVS>"}</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <h2 className="nav--bvs">{"HOME"}</h2>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features">About</Nav.Link>
-            <Nav.Link href="#pricing">Projects</Nav.Link>
-            <Nav.Link href="#pricing">Blog</Nav.Link>
+            <Nav.Link className="navlink--text" href="#features">
+              <p className="navlink--text">About</p>
+            </Nav.Link>
+            <Nav.Link className="navlink--text" href="#pricing">
+            <p className="navlink--text">Projects</p>
+            </Nav.Link>
+            <Nav.Link className="navlink--text" href="#pricing">
+            <p className="navlink--text">Blog</p>
+            </Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="#deets">
-              <button className='nav--contact'>Contact</button>
+              <button className="nav--contact">Contact</button>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

@@ -1,38 +1,59 @@
+/* HEADER */
+
 .header {
   display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  text-align: center;
+  height: 85vh;
+  max-height: 800px;
+  background-color: wheat;
+}
+
+.header--content {
+  display: flex;
   flex-direction: column;
+}
+
+.bvs-photos {
+  display: block;
+  width: 200px;
+  border-radius: 15%;
+  border: 3.5px solid #1a1918;
+}
+
+.hi--there {
+  font-size: 1.8rem;
+  font-weight: 100;
+  margin: 0 0 -10px 0;
+}
+
+.header--benjamin {
+  font-weight: 900;
+  font-size: 4.0rem;
+  margin: 0;
+  color: #434647;
+}
+
+.dev--sentence {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
   justify-content: center;
 }
 
-.header--info {
-  display: flex;
-  flex-direction: column;
-  color: #353738;
+.header--developer {
+  font-size: 1.47rem;
+  font-weight: 100;
+  margin: 10px 0 -10px 0;
 }
 
-.header--info p {
-  margin: 15px 0 0 0;
-  font-size: 2.2rem;
-  text-align: center;
-}
-
-.header--info h1 {
-  margin: 0;
-  font-size: 2.2rem;
-  font-weight: bold;
-  text-align: center;
-  padding-bottom: 9px;
-}
-
-.header--info span {
-  text-align: center;
-  background-color: wheat;
-  width: 300px;
-  margin: auto;
-  font-size: 1.2rem;
-  font-weight: 300;
-  letter-spacing: 4px;
-  padding: 5px 0;
+.header--underline {
+  border: 1px solid wheat;
+  width: 190px;
+  margin: 10px auto;
 }
 
 .bvs-photo {
@@ -44,10 +65,25 @@
   -moz-box-shadow: 3px 4px 13px -3px rgba(0,0,0,0.75);
 }
 
+@media only screen and (max-width: 600px) {
+  .header {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .header {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 70vh;
+  }
+}
+
 /* ABOUT SECTION */
 
-.about--skills {
-  margin: 50px 0 0 0;
+/* .about--skills {
+  margin: 0 0 0 0;
   background-color: #1a1918;
   color: whitesmoke;
   padding: 5%;
@@ -75,20 +111,71 @@
 
 .read--more:hover {
   cursor: pointer;
+} */
+
+
+
+
+
+/* ABOUT SECTION */
+
+.about--skills {
+  background-color: #1a1918;
+  color: whitesmoke;
+  padding: 15px 0 35px 0;
+}
+
+.about--title {
+  font-size: 3.5rem;
+  font-weight: 100;
+  margin: 0;
+  text-align: center;
+  padding: 25px;
+  color: wheat;
+}
+
+.bvs-photo {
+  display: block;
+  width: 55%;
+  margin: 0 auto;
+  border-radius: 15%;
+  border: 3.5px solid wheat;
+}
+
+.about--text {
+  text-align: justify;
+  text-justify: inter-word;
+  width: 75%;
+  max-width: 375px;
+  margin: 0px auto;
+}
+
+.skills--title {
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin: 15px 0 10px 0;
+  text-align: center;
+  color: wheat;
 }
 
 .skills--btns {
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 15px;
+  justify-content: center;
+  width: 75%;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .skills--btns button {
-  margin: 0 6px 12px 0;
+  margin: 3PX;
   border: 1px solid wheat;
   background: none;
   color: wheat;
-  padding: 5px 15px;
+  padding: 5px;
+  width: 95px;
+  font-size: 0.9rem;
 }
 
 .skills--btns button:hover {
@@ -96,9 +183,15 @@
   color: #1a1918;
 }
 
+/* @media only screen and (min-width: 981px) {
+  .about--skills {
+    background-color: lightblue;
+  }
+} */
+
 /* ABOUT - DESKTOP VERSION */
 
-@media only screen and (min-width: 760px) {
+/* @media only screen and (min-width: 760px) {
   .header {
     display: flex;
     flex-direction: row;
@@ -121,7 +214,7 @@
 
   /* About Section (Desktop) */
 
-  .about--skills {
+  /* .about--skills {
     display: flex;
     gap: 10px;
     justify-content: center;
@@ -130,8 +223,8 @@
 
   .about--me {
     max-width: 450px;
-  }
-}
+  } */
+
 
 /* PROJECTS SECTION */
 
