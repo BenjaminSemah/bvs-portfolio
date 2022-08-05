@@ -1,0 +1,342 @@
+/* HEADER */
+
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  text-align: center;
+  height: 85vh;
+  max-height: 800px;
+  background-color: wheat;
+}
+
+.header--content {
+  display: flex;
+  flex-direction: column;
+}
+
+.bvs-photos {
+  display: block;
+  width: 200px;
+  border-radius: 15%;
+  border: 3.5px solid #1a1918;
+}
+
+.hi--there {
+  font-size: 1.8rem;
+  font-weight: 100;
+  margin: 0 0 -10px 0;
+}
+
+.header--benjamin {
+  font-weight: 900;
+  font-size: 4.0rem;
+  margin: 0;
+  color: #434647;
+}
+
+.dev--sentence {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  justify-content: center;
+}
+
+.header--developer {
+  font-size: 1.47rem;
+  font-weight: 100;
+  margin: 10px 0 -10px 0;
+}
+
+.header--underline {
+  border: 1px solid wheat;
+  width: 190px;
+  margin: 10px auto;
+}
+
+.bvs-photo {
+  width: 90%;
+  max-width: 300px;
+  margin: 20px auto;
+  box-shadow: 3px 4px 13px -3px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 4px 13px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 4px 13px -3px rgba(0,0,0,0.75);
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .header {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 70vh;
+  }
+}
+
+/* ABOUT SECTION */
+
+/* .about--skills {
+  margin: 0 0 0 0;
+  background-color: #1a1918;
+  color: whitesmoke;
+  padding: 5%;
+}
+
+.about--me {
+  margin-bottom: 30px;
+}
+
+.about--skills h2 {
+  font-size: 2.2rem;
+  font-weight: 100;
+  margin: 0;
+}
+
+.about--skills p {
+  text-align: left;
+  margin: 10px 0 0 0;
+}
+
+.read--more {
+  margin: 0;
+  color: wheat;
+}
+
+.read--more:hover {
+  cursor: pointer;
+} */
+
+
+
+
+
+/* ABOUT SECTION */
+
+.about--skills {
+  background-color: #1a1918;
+  color: whitesmoke;
+  padding: 15px 0 35px 0;
+}
+
+.about--title {
+  font-size: 3.5rem;
+  font-weight: 100;
+  margin: 20px 0 0 0;
+  text-align: center;
+  padding: 5px;
+  color: wheat;
+}
+
+.bvs-photo {
+  display: block;
+  width: 55%;
+  margin: 0 auto;
+  border-radius: 15%;
+  border: 3.5px solid wheat;
+}
+
+.about--text {
+  text-align: justify;
+  text-justify: inter-word;
+  width: 90%;
+  max-width: 600px;
+  margin: 0px auto;
+}
+
+.link--in--text {
+  text-decoration: none;
+  color: rgb(209, 143, 20);
+}
+
+.link--in--text:hover {
+  background-color: wheat;
+  color: #1a1918;
+}
+
+.skills--title {
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin: 15px 0 10px 0;
+  text-align: center;
+  color: wheat;
+}
+
+.skills--btns {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 75%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.skills--btns button {
+  margin: 3PX;
+  border: 1px solid wheat;
+  background: none;
+  color: wheat;
+  padding: 5px;
+  width: 95px;
+  font-size: 0.9rem;
+}
+
+.skills--btns button:hover {
+  background-color: wheat;
+  color: #1a1918;
+}
+
+/* @media only screen and (min-width: 981px) {
+  .about--skills {
+    background-color: lightblue;
+  }
+} */
+
+/* ABOUT - DESKTOP VERSION */
+
+/* @media only screen and (min-width: 760px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3%;
+    margin-top: 7%;
+  }
+
+  .header--info {
+    margin-top: -35px;
+  }
+
+  .bvs-photo {
+    margin: 0;
+  }
+
+  .header--info span {
+    margin: 0;
+  }
+
+  /* About Section (Desktop) */
+
+  /* .about--skills {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 50px 100px;
+  }
+
+  .about--me {
+    max-width: 450px;
+  } */
+
+
+/* PROJECTS SECTION */
+
+.projects--section {
+  padding: 20px 15px 100px 15px;
+}
+
+.projects--section h2 {
+  font-size: 3.5rem;
+  font-weight: 100;
+  margin: 0;
+  text-align: center;
+  padding: 35px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.single--project {
+  display: flex;
+  flex-direction: column;
+  width: 275px;
+  height: auto;
+  margin: 25px 15px 15px 15px;
+  border-radius: 15px;
+  box-shadow: 2px 3px 5px 1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 2px 3px 5px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 3px 55px 1px rgba(0,0,0,0.75);
+}
+
+.single--project:hover {
+  transform: scale(1.03);
+}
+
+.image--link,
+.project--image {
+  width: 275px;
+  height: 150px;
+}
+
+.single--project img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.project--details {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 15px 15px 15px 20px;
+  background-color: #1a1918;
+  color: aliceblue;
+}
+
+.project--details p {
+  /* margin: 0; */
+}
+
+.project--name {
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: wheat;
+  text-align: center;
+  padding-bottom: 3px;
+  margin-bottom: 0px;
+}
+
+.project--underline {
+  border-top: 1px solid wheat;
+  margin: 0 auto 10px auto ;
+  width: 50px;
+  display: none;
+}
+
+.project--desc {
+  font-size: small;
+  text-align: justify;
+}
+
+.project--links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.project--links a {
+  border: none;
+  background-color: wheat;
+  border-radius: 25px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 5px 10px;
+  color: #1a1918;
+  text-decoration: none;
+}
+
+.project--links a:hover {
+  color: #1a1918;
+  background-color: #ddbd55;
+}
