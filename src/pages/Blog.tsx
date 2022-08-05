@@ -11,7 +11,15 @@ export function Blog() {
       <h2 className="sectionb--title">Blog Posts</h2>
       <div className="all--posts">
         <div className="single--post">
-          <img className="article--img" src={articleOneImg} />
+          <div className="article--img--div">
+          <a
+            className="article--image--link"
+            href="https://benjaminsemah.hashnode.dev/how-to-remember-what-you-learn-from-coding-tutorials"
+            target="_blank"
+          >
+            <img className="article--img" src={articleOneImg} />
+          </a>
+          </div>
           <div className="single--post--details">
             <a
               className="post--title"
@@ -25,19 +33,29 @@ export function Blog() {
               remember what you learn, they might end up becoming a source of
               frustration. So what can we do about it?
               <br />
+              {" "}
+              <br />
               <a
                 className="read--post"
                 href="https://benjaminsemah.hashnode.dev/how-to-remember-what-you-learn-from-coding-tutorials"
                 target="_blank"
               >
                 {" "}
-                Read Post
+                Read more
               </a>
             </p>
           </div>
         </div>
         <div className="single--post">
-          <img className="article--img" src={articleTwoImg} />
+          <div className="article--img--div">
+          <a
+            className="article--image--link"
+            href="https://benjaminsemah.hashnode.dev/series/js-challenges"
+            target="_blank"
+          >
+            <img className="article--img" src={articleTwoImg} />
+          </a>
+          </div>
           <div className="single--post--details three--posts ">
           <a
             className="post--title"
@@ -51,19 +69,29 @@ export function Blog() {
             challenges. Each article includes a walkthrough explanation as well
             as the final solution.
             <br />
+            {" "}
+            <br />
             <a
               className="read--post"
               href="https://benjaminsemah.hashnode.dev/series/js-challenges"
               target="_blank"
             >
               {" "}
-              Read Post
+              Read more
             </a>
           </p>
           </div>
         </div>
         <div className="single--post">
-          <img className="article--img" src={articleThreeImg} />
+          <div className="article--img--div">
+          <a
+            className="article--image--link"
+            href="https://benjaminsemah.hashnode.dev/what-is-typescript-and-should-you-learn-it"
+            target="_blank"
+          >
+            <img className="article--img" src={articleThreeImg} />
+          </a>
+          </div>
           <div className="single--post--details">
             <a
               className="post--title"
@@ -78,19 +106,29 @@ export function Blog() {
               you learn it as a beginner? These questions and more are addressed
               in this post.
               <br />
+              {" "}
+              <br />
               <a
                 className="read--post"
                 href="https://benjaminsemah.hashnode.dev/what-is-typescript-and-should-you-learn-it"
                 target="_blank"
               >
                 {" "}
-                Read Post
+                Read more
               </a>
             </p>
           </div>
         </div>
         <div className="single--post">
-          <img className="article--img" src={articleFourImg} />
+          <div className="article--img--div">
+          <a
+            className="article--image--link"
+            href="https://benjaminsemah.hashnode.dev/what-i-learned-from-my-first-100-days-of-code"
+            target="_blank"
+          >
+            <img className="article--img" src={articleFourImg} />
+          </a>
+          </div>
           <div className="single--post--details">
             <a
               className="post--title"
@@ -105,19 +143,29 @@ export function Blog() {
               while at it, you share your progress, lessons and struggles
               publicly.
               <br />
+              {" "}
+              <br />
               <a
                 className="read--post"
                 href="https://benjaminsemah.hashnode.dev/what-i-learned-from-my-first-100-days-of-code"
                 target="_blank"
               >
                 {" "}
-                Read Post
+                Read more
               </a>
             </p>
           </div>
         </div>
         <div className="single--post">
-          <img className="article--img" src={articleFiveImg} />
+          <div className="article--img--div">
+          <a
+            className="article--image--link"
+            href="https://benjaminsemah.hashnode.dev/understanding-how-css-selectors-work-part-one"
+            target="_blank"
+          >
+            <img className="article--img" src={articleFiveImg} />
+          </a>
+          </div>
           <div className="single--post--details three--posts four--posts">
           <a
             className="post--title"
@@ -131,19 +179,29 @@ export function Blog() {
             Selectors and how they work. Each selector is explained with an
             example that readers can use for practice.
             <br />
+            {" "}
+            <br />
             <a
               className="read--post"
               href="https://benjaminsemah.hashnode.dev/understanding-how-css-selectors-work-part-one"
               target="_blank"
             >
               {" "}
-              Read Post
+              Read more
             </a>
           </p>
           </div>
         </div>
-        <div className="single--post">
-          <img className="article--img" src={articleOneImg} />
+        {/* <div className="single--post">
+          <div className="article--img--div">
+          <a
+            className="article--image--link"
+            href="https://benjaminsemah.hashnode.dev/understanding-how-css-selectors-work-part-one"
+            target="_blank"
+          >
+            <img className="article--img" src={articleFiveImg} />
+          </a>
+          </div>
           <div className="single--post--details three--posts four--posts">
           <a
             className="post--title"
@@ -157,20 +215,22 @@ export function Blog() {
             remember what you learn, they might end up becoming a source of
             frustration. So what can we do about it?
             <br />
+            {" "}
+            <br />
             <a
               className="read--post"
               href="https://benjaminsemah.hashnode.dev/how-to-remember-what-you-learn-from-coding-tutorials"
               target="_blank"
             >
               {" "}
-              Read Post
+              Read more
             </a>
           </p>
           </div>
-        </div>
+        </div> */}
       </div>
       <a
-        className="section--title more--posts"
+        className="more--posts"
         href="https://benjaminsemah.hashnode.dev/"
         target="_blank"
       >
