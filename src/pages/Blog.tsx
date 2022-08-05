@@ -8,6 +8,7 @@ import articleFiveImg from "../assets/articleFive.jpg";
 export function Blog() {
   return (
     <section className="blog--section">
+      <div id="bloghome"></div>
       <h2 className="sectionb--title">Blog Posts</h2>
       <div className="all--posts">
         <div className="single--post">

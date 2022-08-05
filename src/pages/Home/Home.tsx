@@ -8,6 +8,7 @@ import "./Home.css";
 export function Home() {
   return (
     <>
+      <div id="home-page"></div>
       <header className="header">
         <img className="bvs-photos" src={bvsPhoto} alt="benjamin-semah" />
         <div className="header--content">
@@ -22,7 +23,7 @@ export function Home() {
           </div>
         </div>
       </header>
-      <section className="about--skills">
+      <section className="about--skills" id="about">
       <div className="left--about">
         <h2 className="about--title">About</h2>
         {/* <img className="bvs-photo" src={bvsPhoto} alt="benjamin-semah" /> */}
@@ -58,7 +59,7 @@ export function Home() {
           </div>
         </div>
       </section>
-      <section className="projects--section">
+      <section className="projects--section" id="projects">
         <h2>Projects</h2>
         <div className="projects">
           <div className="single--project">
@@ -77,9 +78,9 @@ export function Home() {
               <p className="project--name">Tenzies Game App</p>
               <div className="project--underline"></div>
               <p className="project--desc">
-                I created the tenzies game app using React.js. This fun game
-                application also uses local storage to enable players to keep a
-                record of their highest scores.
+                The tenzies game application uses local storage to enable
+                players to keep recored of their highest scores. Its a fun game
+                that can be played by both adult and children
               </p>
               <div className="project--links">
                 <a href="https://benjamin-tenzies.netlify.app/" target="_blank">
@@ -110,10 +111,10 @@ export function Home() {
               <p className="project--name">Better Runner App</p>
               <div className="project--underline"></div>
               <p className="project--desc">
-                This BetterRunner project is a website created for a
-                neighborhood community of running enthusiasts. The website
-                offers a platform for the community to publicize its events. And
-                also to learn and share relevant information with members.
+                The BetterRunner website is created for a
+                community of running enthusiasts. It provides a
+                platform to publicize events and share relevant
+                information with members.
               </p>
               <div className="project--links">
                 <a href="https://better-runner.netlify.app/" target="_blank">
@@ -144,10 +145,10 @@ export function Home() {
               <p className="project--name">Cinimash Comments Feature</p>
               <div className="project--underline"></div>
               <p className="project--desc">
-                Assembled and led a team of three developers during Bootcamp to
-                create core features and integrate third-party APIs. I
-                implemented the comments feature. And I was also responsible for
-                styling the comments sections of the application.
+                Led a team of three developers to
+                create core features and integrate third-party APIs.
+                I was responsible for implementing and
+                styling the comments feature of the application.
               </p>
               <div className="project--links">
                 <a href="https://cinemash.netlify.app/" target="_blank">

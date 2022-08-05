@@ -3,12 +3,13 @@ import { useForm, ValidationError } from "@formspree/react";
 export function ContactForm() {
   const [state, handleSubmit] = useForm("mgeqwzlp");
   return (
-    <section className="contact--section">
+    <section className="contact--section" id="contact">
       <div className="desc--title">
         <h2 className="form--title">Get In Touch</h2>
         <p className="form--desc">
-          Let's build together. I'd love to hear from you!<br></br>
-          Fill in the form below to shoot an email to me.
+          Want to chat about a job opening? Or anything web dev related? I will be happy to hear from you.
+          <br /><br />
+          Send me an email with the form. Or you can reach me via any of the social platforms using the round buttons.
         </p>
       </div>
       <form className="contact--form" onSubmit={handleSubmit}>

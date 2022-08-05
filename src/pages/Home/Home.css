@@ -128,9 +128,9 @@
 .about--title {
   font-size: 3.5rem;
   font-weight: 100;
-  margin: 0;
+  margin: 20px 0 0 0;
   text-align: center;
-  padding: 25px;
+  padding: 5px;
   color: wheat;
 }
 
