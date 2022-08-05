@@ -27,12 +27,16 @@ export function Home() {
         <h2 className="about--title">About</h2>
         {/* <img className="bvs-photo" src={bvsPhoto} alt="benjamin-semah" /> */}
         <p className="about--text">
-          I have a passion for excellent user experience and web
-          accessibility. I am a staunch advocate of the Growth Mindset and
-          always strive for continuous improvement.
-          I have a passion for excellent user experience and web
-          accessibility. I am a staunch advocate of the Growth Mindset and
-          always strive for continuous improvement.
+          I'm a software developer with a passion for web accessibility and excellent user experiences.
+          Currently looking for a frontend developer position.
+          <br/>
+          <br/>
+          Previously, I've worked as a graphic designer, photographer and video editor. From these experiences,
+          I bring to web development a knack for creating appealing visuals and memorable experiences for users.
+          <br/>
+          <br/>
+          I'm an advocate of the <a className="link--in--text" href="https://www.youtube.com/watch?v=hiiEeMN7vbQ" target="_blank">growth mindset</a> and always strive for continuous improvement.
+          I also love <a className="link--in--text" href="https://benjaminsemah.hashnode.dev/" target="_blank">writing</a> and sharing what I learn with others. When I'm not writing code, you'll likely find me enjoying reggae music, reading a book or running a 5km distance.
         </p>
         </div>
         <div className="skills--tech">

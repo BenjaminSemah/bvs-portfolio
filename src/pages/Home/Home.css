@@ -145,9 +145,19 @@
 .about--text {
   text-align: justify;
   text-justify: inter-word;
-  width: 75%;
-  max-width: 375px;
+  width: 90%;
+  max-width: 600px;
   margin: 0px auto;
+}
+
+.link--in--text {
+  text-decoration: none;
+  color: rgb(209, 143, 20);
+}
+
+.link--in--text:hover {
+  background-color: wheat;
+  color: #1a1918;
 }
 
 .skills--title {
