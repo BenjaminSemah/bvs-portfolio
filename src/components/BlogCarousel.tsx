@@ -6,7 +6,7 @@ import articleThreeImg from "../assets/articleThree.jpg";
 export function BlogCarousel() {
   return (
     <section className="blog--section">
-      <h2 className="section--title">Blog Posts</h2>
+      {/* <h2 className="section--title">Blog Posts</h2>
       <div className="all--posts">
         <div className="single--post">
           <a
@@ -155,7 +155,7 @@ export function BlogCarousel() {
         target="_blank"
       >
         See More Posts
-      </a>
+      </a> */}
     </section>
   );
 }

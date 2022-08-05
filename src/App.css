@@ -54,8 +54,8 @@
 
 /* BLOG POSTS SECTION */
 .blog--section {
-  background-color: #1a1918;
-  color: whitesmoke;
+  background-color: rgb(241, 239, 235);
+  color: #1a1918;
 }
 
 .all--posts {
@@ -63,47 +63,73 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.section--title {
+/* .section--title {
   font-size: 3.5rem;
   font-weight: 100;
   margin: 0;
   text-align: center;
   padding: 75px 0 35px 0;
-}
+} */
 
 .single--post {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 30px 0;
+  margin-bottom: 20px;
+}
+
+.sectionb--title {
+  font-size: 3.5rem;
+  font-weight: 100;
+  margin: 0;
+  text-align: center;
+  padding: 55px 0 35px 0;
+}
+
+.single--post--details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 25px 25px 25px;
+  background-color: white;
+  color: #3a3128;
+  padding: 30px 35px 10px 35px;
 }
 
 .post--title {
   font-weight: 800;
   font-size: 1.1rem;
-  color: wheat;
   border-radius: 25px;
   padding-bottom: 3px;
   margin-bottom: 5px;
-  width: 80%;
+  width: 90%;
   max-width: 400px;
   text-decoration: none;
+  color: #3a3128;
+}
+
+.article--img {
+  width: 90%;
+  max-width: 500px;
 }
 
 .post--title:hover {
-  color: rgb(236, 198, 126);
+  color: #3a3128;
   cursor: pointer;
   text-decoration: underline;
   transform: scale(1.02);
 }
 
 .post--desc {
-  font-size: small;
+  font-size: medium;
   text-align: justify;
-  width: 80%;
+  width: 90%;
   max-width: 400px;
   margin: 0;
 }
@@ -136,7 +162,7 @@
 
 /* Blog Extras */
 
-@media only screen and (max-width: 799px) {
+/* @media only screen and (max-width: 799px) {
   .three--posts {
     display: none;
   }
@@ -146,7 +172,7 @@
   .four--posts {
     display: none;
   }
-}
+} */
 
 /* CONTACT SECTION */
 
