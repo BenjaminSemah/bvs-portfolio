@@ -78,9 +78,9 @@ export function Home() {
               <p className="project--name">Tenzies Game App</p>
               <div className="project--underline"></div>
               <p className="project--desc">
-                The tenzies game application uses local storage to enable
+                The tenzies game application is built with React. It also uses local storage to enable
                 players to keep recored of their highest scores. Its a fun game
-                that can be played by both adult and children
+                that can be enjoyed by all.
               </p>
               <div className="project--links">
                 <a href="https://benjamin-tenzies.netlify.app/" target="_blank">
@@ -184,11 +184,11 @@ export function Home() {
                 was all built using HTML, CSS, and JavaScript.
               </p>
               <div className="project--links">
-                <a href="https://benjamin-tenzies.netlify.app/" target="_blank">
+                <a href="https://happy-devs.netlify.app/" target="_blank">
                   Live Website
                 </a>
                 <a
-                  href="https://github.com/BenjaminSemah/tenzies-game"
+                  href="https://github.com/BenjaminSemah/happy-devs"
                   target="_blank"
                 >
                   Source Code
